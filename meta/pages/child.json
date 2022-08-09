@@ -1,0 +1,45 @@
+{
+  "access": "Everybody",
+  "components": [
+    {
+      "components": [
+        {
+          "name": "pageTitle",
+          "size": "H1",
+          "text": "Child",
+          "type": "heading"
+        },
+        {
+          "components": [
+            {
+              "class": "col-md-12",
+              "components": [
+                {
+                  "events": {
+                    "MouseEnter": [
+                      {
+                        "text": "Derpings",
+                        "type": "tooltip"
+                      }
+                    ]
+                  },
+                  "icon": "wysiwyg",
+                  "name": "icon0",
+                  "type": "icon"
+                }
+              ],
+              "name": "col0",
+              "type": "col"
+            }
+          ],
+          "name": "row0",
+          "type": "row"
+        }
+      ],
+      "container": "main",
+      "type": "content"
+    }
+  ],
+  "layout": "Temp",
+  "name": "Child"
+}

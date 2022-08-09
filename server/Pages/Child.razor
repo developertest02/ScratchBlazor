@@ -1,0 +1,19 @@
+﻿@page "/child"
+@layout TempLayout
+@inherits ScratchBlazor.Pages.ChildComponent
+
+@using Radzen
+@using Radzen.Blazor
+<PageTitle>Child</PageTitle>
+<RadzenContent Container="main">
+  <ChildContent>
+    <RadzenHeading Size="H1" Text="Child">
+    </RadzenHeading>
+    <div class="row">
+      <div class="col-md-12">
+        <RadzenIcon Icon="wysiwyg" MouseEnter="@Icon0MouseEnter">
+        </RadzenIcon>
+      </div>
+    </div>
+  </ChildContent>
+</RadzenContent>

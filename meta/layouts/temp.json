@@ -1,0 +1,81 @@
+{
+  "components": [
+    {
+      "type": "layout",
+      "components": [
+        {
+          "components": [
+            {
+              "class": "justify-content-start align-items-center",
+              "components": [
+                {
+                  "class": "col-md-6 d-flex align-items-center",
+                  "style": {
+                    "paddingLeft": "30px"
+                  },
+                  "components": [
+                    {
+                      "name": "label0",
+                      "text": "ScratchBlazor",
+                      "type": "label"
+                    },
+                    {
+                      "attributes": [
+                        {
+                          "name": "style",
+                          "value": "flex: auto"
+                        }
+                      ],
+                      "style": {
+                        "height": "50px"
+                      },
+                      "type": "menu",
+                      "name": "menu0"
+                    }
+                  ],
+                  "name": "leftCol",
+                  "type": "col"
+                },
+                {
+                  "class": "col-md-6 text-lg-right",
+                  "name": "rightCol",
+                  "type": "col"
+                }
+              ],
+              "name": "headerRow",
+              "type": "row"
+            }
+          ],
+          "name": "header0",
+          "type": "header"
+        },
+        {
+          "components": [
+            {
+              "name": "main",
+              "type": "content-container"
+            }
+          ],
+          "style": {
+            "marginTop": "58px",
+            "marginLeft": "0px"
+          },
+          "name": "body0",
+          "type": "body"
+        },
+        {
+          "components": [
+            {
+              "name": "footerText",
+              "text": "ScratchBlazor, Copyright Ⓒ 2022",
+              "type": "label"
+            }
+          ],
+          "name": "footer0",
+          "type": "footer"
+        }
+      ]
+    }
+  ],
+  "name": "Temp"
+}
