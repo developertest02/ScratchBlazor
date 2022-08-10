@@ -13,7 +13,7 @@
           "Microsoft.Data.SqlClient": "2.1.4",
           "Microsoft.EntityFrameworkCore": "6.0.0",
           "Microsoft.EntityFrameworkCore.Design": "6.0.0",
-          "Radzen.Blazor": "3.20.1",
+          "Radzen.Blazor": "3.20.2",
           "System.ComponentModel.Annotations": "6.0.0-preview.4.21253.7"
         },
         "runtime": {
@@ -348,21 +348,6 @@
           }
         }
       },
-      "Radzen.Blazor/3.20.1": {
-        "dependencies": {
-          "LibSassBuilder": "2.0.1",
-          "Microsoft.AspNetCore.Components": "6.0.0",
-          "Microsoft.AspNetCore.Components.Web": "6.0.0",
-          "Microsoft.CSharp": "4.7.0",
-          "System.Linq.Dynamic.Core": "1.2.12"
-        },
-        "runtime": {
-          "lib/net6.0/Radzen.Blazor.dll": {
-            "assemblyVersion": "3.20.1.0",
-            "fileVersion": "3.20.1.0"
-          }
-        }
-      },
       "System.Collections.Immutable/6.0.0": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
@@ -519,6 +504,18 @@
             "assemblyVersion": "4.0.1.0",
             "fileVersion": "4.700.19.56404"
           }
+        }
+      },
+      "Radzen.Blazor/3.20.2": {
+        "dependencies": {
+          "LibSassBuilder": "2.0.1",
+          "Microsoft.AspNetCore.Components": "6.0.0",
+          "Microsoft.AspNetCore.Components.Web": "6.0.0",
+          "Microsoft.CSharp": "4.7.0",
+          "System.Linq.Dynamic.Core": "1.2.12"
+        },
+        "runtime": {
+          "Radzen.Blazor.dll": {}
         }
       }
     }
@@ -816,13 +813,6 @@
       "path": "microsoft.win32.systemevents/4.7.0",
       "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
     },
-    "Radzen.Blazor/3.20.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-7kdVLMshnhnoJC0vd7XbXjMPk6MzEi3t/oR88IIEaCvZD8thjTyfFI1tZHb9D56zKziaszmcE+s5nyTvVHBRUA==",
-      "path": "radzen.blazor/3.20.1",
-      "hashPath": "radzen.blazor.3.20.1.nupkg.sha512"
-    },
     "System.Collections.Immutable/6.0.0": {
       "type": "package",
       "serviceable": true,
@@ -948,6 +938,11 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
+    },
+    "Radzen.Blazor/3.20.2": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
