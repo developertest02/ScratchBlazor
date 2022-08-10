@@ -50,3 +50,7 @@ build_metadata.AdditionalFiles.CssScope =
 [E:/Dev/ScratchBlazor/server/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Dev/ScratchBlazor/server/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

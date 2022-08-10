@@ -13,7 +13,7 @@
           "Microsoft.Data.SqlClient": "2.1.4",
           "Microsoft.EntityFrameworkCore": "6.0.0",
           "Microsoft.EntityFrameworkCore.Design": "6.0.0",
-          "Radzen.Blazor": "3.20.1",
+          "Radzen.Blazor": "3.20.2",
           "System.ComponentModel.Annotations": "6.0.0-preview.4.21253.7"
         },
         "runtime": {
@@ -348,7 +348,7 @@
           }
         }
       },
-      "Radzen.Blazor/3.20.1": {
+      "Radzen.Blazor/3.20.2": {
         "dependencies": {
           "LibSassBuilder": "2.0.1",
           "Microsoft.AspNetCore.Components": "6.0.0",
@@ -358,8 +358,8 @@
         },
         "runtime": {
           "lib/net6.0/Radzen.Blazor.dll": {
-            "assemblyVersion": "3.20.1.0",
-            "fileVersion": "3.20.1.0"
+            "assemblyVersion": "3.20.2.0",
+            "fileVersion": "3.20.2.0"
           }
         }
       },
@@ -816,12 +816,12 @@
       "path": "microsoft.win32.systemevents/4.7.0",
       "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
     },
-    "Radzen.Blazor/3.20.1": {
+    "Radzen.Blazor/3.20.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-7kdVLMshnhnoJC0vd7XbXjMPk6MzEi3t/oR88IIEaCvZD8thjTyfFI1tZHb9D56zKziaszmcE+s5nyTvVHBRUA==",
-      "path": "radzen.blazor/3.20.1",
-      "hashPath": "radzen.blazor.3.20.1.nupkg.sha512"
+      "sha512": "sha512-S1v9hC8glr7rtFWNJfH594DTKi+fMybhuRceIDEbgo1alv4wmoHgY0UH0lZe8DHzD5twowEL27iB9mbImO8bSQ==",
+      "path": "radzen.blazor/3.20.2",
+      "hashPath": "radzen.blazor.3.20.2.nupkg.sha512"
     },
     "System.Collections.Immutable/6.0.0": {
       "type": "package",

@@ -1,0 +1,132 @@
+﻿@using Radzen
+@using System.Linq
+@using System.Linq.Dynamic.Core
+@using Microsoft.AspNetCore.Components.Forms
+@using Microsoft.JSInterop
+@using Microsoft.AspNetCore.Components.Rendering
+@typeparam TValue
+@inherits DropDownBase<TValue>
+
+@if (Visible)
+{
+    <div @ref="@Element" @attributes="Attributes" class="@GetCssClass()" onmousedown="Radzen.activeElement = null" @onclick="@(args => OpenPopup("ArrowDown", false, true))" style="@Style" tabindex="@TabIndex"
+         @onkeydown="@((args) => OnKeyPress(args))" id="@GetId()"  @onfocus="@((args) => OnFocus(args))">
+        <div class="rz-helper-hidden-accessible">
+            <input disabled="@Disabled" style="width:100%" aria-haspopup="listbox" readonly="" type="text" tabindex="-1"
+                   name="@Name" value="@(internalValue != null ? internalValue : "")"
+                   aria-label="@(!Multiple && internalValue != null ? PropertyAccess.GetItemOrValueFromProperty(internalValue, TextProperty) : "")" />
+        </div>
+
+        @if (ValueTemplate != null && selectedItem != null)
+        {
+            <label class="rz-dropdown-label rz-inputtext " style="width:100%;">
+                @ValueTemplate(selectedItem)
+            </label>
+        }
+        else if (Template != null && selectedItem != null)
+        {
+            <label class="rz-dropdown-label rz-inputtext ">
+                @Template(selectedItem)
+            </label>
+        }
+        else if (selectedItem != null && !Multiple)
+        {
+            <label class="rz-dropdown-label rz-inputtext ">
+                @PropertyAccess.GetItemOrValueFromProperty(selectedItem, TextProperty)
+            </label>
+        }
+        else if (selectedItems.Count > 0)
+        {
+            <label class="rz-dropdown-label rz-inputtext ">
+                @if (selectedItems.Count < MaxSelectedLabels)
+                {
+                    @if (Template == null)
+                    {
+                        @(string.Join(",", selectedItems.Select(i => PropertyAccess.GetItemOrValueFromProperty(i, TextProperty))))
+                    }
+                    else
+                    {
+                        foreach (var item in selectedItems)
+                        {
+                            @Template(item)@(",")
+                        }
+                    }
+                }
+                else
+                {
+                    @($"{selectedItems.Count} {SelectedItemsText}")
+                }
+            </label>
+        }
+        else if (!string.IsNullOrEmpty(Placeholder))
+        {
+            <label class="rz-dropdown-label rz-inputtext  rz-placeholder">
+                @Placeholder
+            </label>
+        }
+        else
+        {
+            <label class="rz-dropdown-label rz-inputtext ">
+                &nbsp;
+            </label>
+        }
+
+        <div class="rz-dropdown-trigger  rz-corner-right">
+            <span class="rz-dropdown-trigger-icon  rzi rzi-chevron-down"></span>
+        </div>
+
+        <div id="@PopupID" class="@(Multiple ? "rz-multiselect-panel    " : "rz-dropdown-panel    ")"
+             style="display:none; box-sizing: border-box">
+            @if (AllowFiltering && !Multiple)
+            {
+                <div class="rz-dropdown-filter-container">
+                    <input id="@SearchID" @ref="@search" tabindex="@TabIndex" class="rz-dropdown-filter rz-inputtext   " autocomplete="off" type="text"
+                           @onchange="@((ChangeEventArgs args) => OnFilter(args))" @onkeydown="@((args) => OnFilterKeyPress(args))" value="@searchText" />
+                    <span class="rz-dropdown-filter-icon rzi rzi-search"></span>
+                </div>
+            }
+            @if (Multiple)
+            {
+                <div class=" rz-multiselect-header rz-helper-clearfix" @onclick:preventDefault>
+                    <div class="rz-chkbox" title="@(!AllowFiltering ? "" : SelectAllText)" @onclick="@SelectAll">
+                        <div class="rz-helper-hidden-accessible">
+                            <input readonly="readonly" type="checkbox">
+                        </div>
+                        <div class="@(IsAllSelected() ? "rz-chkbox-box    rz-state-active" : "rz-chkbox-box   ")">
+                            <span class="@(IsAllSelected() ? "rz-chkbox-icon  rzi rzi-check" : "rz-chkbox-icon ")"></span>
+                        </div>
+                    </div>
+                    @if (!AllowFiltering && !string.IsNullOrEmpty(SelectAllText))
+                    {
+                        <span style="cursor:pointer" @onclick="@SelectAll">@SelectAllText</span>
+                    }
+                    @if (AllowFiltering)
+                    {
+                        <div class="rz-multiselect-filter-container">
+                            <input id="@SearchID" tabindex="@TabIndex" class="rz-inputtext" role="textbox" type="text"
+                                   onclick="Radzen.preventDefaultAndStopPropagation(event)"
+                                   @ref="@search"
+                                   @onchange="@((args) => OnFilter(args))" @onkeydown="@((args) => OnFilterKeyPress(args))" value="@searchText" />
+                            <span class="rz-multiselect-filter-icon rzi rzi-search"></span>
+                        </div>
+                    }
+                    <a class="rz-multiselect-close " @onclick="@ClearAll" @onclick:stopPropagation="true">
+                        <span class="rzi rzi-times"></span>
+                    </a>
+                </div>
+            }
+            <div class="@(Multiple ? "rz-multiselect-items-wrapper" : "rz-dropdown-items-wrapper")" style="max-height: 200px;overflow-x: hidden">
+                <ul @ref="list" class="@(Multiple ? "rz-multiselect-items rz-multiselect-list    " : "rz-dropdown-items rz-dropdown-list    ")" role="listbox">
+                    @if (View != null)
+                    {
+                        @RenderItems()
+                    }
+                </ul>
+            </div>
+        </div>
+        @if (AllowClear && (!Multiple && HasValue || Multiple && selectedItems.Count > 0))
+        {
+            <i class="rz-dropdown-clear-icon rzi rzi-times" @onclick="@ClearAll" @onclick:stopPropagation="true"></i>
+        }
+    </div>
+}
