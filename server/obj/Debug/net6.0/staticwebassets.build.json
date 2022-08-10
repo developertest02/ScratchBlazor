@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EEJy1JDnP1OTlDlAA3cLW7gcjuTJMQxvUdmSlhR7WDc=",
+  "Hash": "Z4AsuBzXp0xhwu62RPSRemISknJkXLhbFfRYGGBYgr0=",
   "Source": "ScratchBlazor",
   "BasePath": "_content/ScratchBlazor",
   "Mode": "Default",
@@ -16,23 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\radzen.blazor\\3.20.1\\staticwebassets\\css\\dark-base.css",
-      "SourceId": "Radzen.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\radzen.blazor\\3.20.1\\staticwebassets\\",
-      "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/dark-base.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\radzen.blazor\\3.20.1\\staticwebassets\\css\\dark-base.css"
-    },
     {
       "Identity": "C:\\Users\\User\\.nuget\\packages\\radzen.blazor\\3.20.1\\staticwebassets\\css\\dark.css",
       "SourceId": "Radzen.Blazor",
@@ -51,12 +34,12 @@
       "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\radzen.blazor\\3.20.1\\staticwebassets\\css\\dark.css"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\radzen.blazor\\3.20.1\\staticwebassets\\css\\default-base.css",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\radzen.blazor\\3.20.1\\staticwebassets\\css\\dark-base.css",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\radzen.blazor\\3.20.1\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/default-base.css",
+      "RelativePath": "css/dark-base.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -65,7 +48,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\radzen.blazor\\3.20.1\\staticwebassets\\css\\default-base.css"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\radzen.blazor\\3.20.1\\staticwebassets\\css\\dark-base.css"
     },
     {
       "Identity": "C:\\Users\\User\\.nuget\\packages\\radzen.blazor\\3.20.1\\staticwebassets\\css\\default.css",
@@ -85,12 +68,12 @@
       "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\radzen.blazor\\3.20.1\\staticwebassets\\css\\default.css"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\radzen.blazor\\3.20.1\\staticwebassets\\css\\humanistic-base.css",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\radzen.blazor\\3.20.1\\staticwebassets\\css\\default-base.css",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\radzen.blazor\\3.20.1\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/humanistic-base.css",
+      "RelativePath": "css/default-base.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -99,7 +82,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\radzen.blazor\\3.20.1\\staticwebassets\\css\\humanistic-base.css"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\radzen.blazor\\3.20.1\\staticwebassets\\css\\default-base.css"
     },
     {
       "Identity": "C:\\Users\\User\\.nuget\\packages\\radzen.blazor\\3.20.1\\staticwebassets\\css\\humanistic.css",
@@ -119,12 +102,12 @@
       "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\radzen.blazor\\3.20.1\\staticwebassets\\css\\humanistic.css"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\radzen.blazor\\3.20.1\\staticwebassets\\css\\software-base.css",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\radzen.blazor\\3.20.1\\staticwebassets\\css\\humanistic-base.css",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\radzen.blazor\\3.20.1\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/software-base.css",
+      "RelativePath": "css/humanistic-base.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -133,7 +116,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\radzen.blazor\\3.20.1\\staticwebassets\\css\\software-base.css"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\radzen.blazor\\3.20.1\\staticwebassets\\css\\humanistic-base.css"
     },
     {
       "Identity": "C:\\Users\\User\\.nuget\\packages\\radzen.blazor\\3.20.1\\staticwebassets\\css\\software.css",
@@ -153,12 +136,12 @@
       "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\radzen.blazor\\3.20.1\\staticwebassets\\css\\software.css"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\radzen.blazor\\3.20.1\\staticwebassets\\css\\standard-base.css",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\radzen.blazor\\3.20.1\\staticwebassets\\css\\software-base.css",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\radzen.blazor\\3.20.1\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/standard-base.css",
+      "RelativePath": "css/software-base.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -167,7 +150,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\radzen.blazor\\3.20.1\\staticwebassets\\css\\standard-base.css"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\radzen.blazor\\3.20.1\\staticwebassets\\css\\software-base.css"
     },
     {
       "Identity": "C:\\Users\\User\\.nuget\\packages\\radzen.blazor\\3.20.1\\staticwebassets\\css\\standard.css",
@@ -185,6 +168,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\radzen.blazor\\3.20.1\\staticwebassets\\css\\standard.css"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\radzen.blazor\\3.20.1\\staticwebassets\\css\\standard-base.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\radzen.blazor\\3.20.1\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/standard-base.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\radzen.blazor\\3.20.1\\staticwebassets\\css\\standard-base.css"
     },
     {
       "Identity": "C:\\Users\\User\\.nuget\\packages\\radzen.blazor\\3.20.1\\staticwebassets\\fonts\\MaterialIcons-Regular.woff",
@@ -493,23 +493,6 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\dark.css"
     },
     {
-      "Identity": "E:\\Dev\\ScratchBlazor\\server\\wwwroot\\assets\\css\\styles-generated.css",
-      "SourceId": "ScratchBlazor",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\Dev\\ScratchBlazor\\server\\wwwroot\\",
-      "BasePath": "_content/ScratchBlazor",
-      "RelativePath": "assets/css/styles-generated.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\css\\styles-generated.css"
-    },
-    {
       "Identity": "E:\\Dev\\ScratchBlazor\\server\\wwwroot\\assets\\css\\styles.css",
       "SourceId": "ScratchBlazor",
       "SourceType": "Discovered",
@@ -525,6 +508,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\css\\styles.css"
+    },
+    {
+      "Identity": "E:\\Dev\\ScratchBlazor\\server\\wwwroot\\assets\\css\\styles-generated.css",
+      "SourceId": "ScratchBlazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Dev\\ScratchBlazor\\server\\wwwroot\\",
+      "BasePath": "_content/ScratchBlazor",
+      "RelativePath": "assets/css/styles-generated.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\css\\styles-generated.css"
     },
     {
       "Identity": "E:\\Dev\\ScratchBlazor\\server\\wwwroot\\assets\\fonts\\MaterialIcons-Regular.woff",
