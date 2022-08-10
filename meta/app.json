@@ -17,13 +17,11 @@
   "namespaces": [],
   "navigation": [
     "Home",
-    "Child",
-    "Working"
+    "Child"
   ],
   "pages": [
     "Home",
-    "Child",
-    "Working"
+    "Child"
   ],
   "port": 8000,
   "serverLang": "cs",
@@ -31,7 +29,7 @@
   "serverProject": true,
   "serverVersion": "6",
   "startPage": "Home",
-  "theme": "standard",
+  "theme": "dark",
   "themeSettings": null,
   "title": "ScratchBlazor"
 }

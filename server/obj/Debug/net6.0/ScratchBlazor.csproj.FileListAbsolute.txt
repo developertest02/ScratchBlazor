@@ -60,7 +60,3 @@ E:\Dev\ScratchBlazor\server\obj\Debug\net6.0\refint\ScratchBlazor.dll
 E:\Dev\ScratchBlazor\server\obj\Debug\net6.0\ScratchBlazor.pdb
 E:\Dev\ScratchBlazor\server\obj\Debug\net6.0\ScratchBlazor.genruntimeconfig.cache
 E:\Dev\ScratchBlazor\server\obj\Debug\net6.0\ref\ScratchBlazor.dll
-E:\Dev\ScratchBlazor\server\bin\Debug\net6.0\Properties\launchSettings.json
-E:\Dev\ScratchBlazor\server\bin\Debug\net6.0\Radzen.Blazor.staticwebassets.runtime.json
-E:\Dev\ScratchBlazor\server\bin\Debug\net6.0\Radzen.Blazor.pdb
-E:\Dev\ScratchBlazor\server\bin\Debug\net6.0\Radzen.Blazor.xml
